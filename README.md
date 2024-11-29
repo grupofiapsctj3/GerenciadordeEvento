@@ -1,29 +1,54 @@
 # Gerenciador de Eventos
 
-Aplicação para gerenciamento de eventos, utilizando **OutSystems** no Backend e **Flutter Flow** no Frontend. Permite criar, visualizar, editar e excluir eventos.
+Aplicação desenvolvida com **OutSystems** para gerenciamento de eventos. Permite criar, editar e excluir eventos de forma simples e funcional, integrando Backend e Frontend em uma única plataforma Low-Code.
 
-## 🚀 Tecnologias
-- **OutSystems**: Lógica de negócios e integração com banco de dados.
-- **Flutter Flow**: Interfaces responsivas e intuitivas.
+---
 
-## 📋 Funcionalidades
-- **Criar Evento**: Preencha título, descrição, data e horário; clique em **Salvar**.
-- **Editar Evento**: Clique na ID do evento, edite os dados e salve.
-- **Excluir Evento**: Clique no ícone de lixeira e confirme.
+## 📋 Funcionalidades e Uso
 
-## ⚙️ Como Rodar
-1. **Backend (OutSystems)**:
-   - Importe o módulo `.oml` no OutSystems.
-   - Publique e configure as entidades.
-2. **Frontend (Flutter Flow)**:
-   - Importe o projeto `.json` no Flutter Flow.
-   - Configure a comunicação com o Backend.
+### Criar um Evento
+1. Clique no botão **Criar Evento**.
+2. Preencha os campos obrigatórios:
+   - **Título**
+   - **Descrição**
+   - **Data**
+   - **Horário**
+3. Clique em **Salvar**.
 
-Acesse a aplicação pelo navegador para começar a gerenciar eventos.
+### Editar um Evento
+1. Na lista de eventos, clique na **ID do evento** que deseja editar.
+2. Atualize as informações desejadas na página de detalhes do evento.
+3. Clique em **Salvar** para aplicar as mudanças.
 
-## 📂 Estrutura
-- Backend: APIs e lógica de negócios.
-- Frontend: Interface do usuário.
+### Excluir um Evento
+1. Clique no ícone de **lixeira** ao lado do evento na tabela.
+2. Confirme a exclusão.
 
-## ✉️ Contato
-Dúvidas? Fale comigo em **[seuemail@example.com](mailto:seuemail@example.com)**.
+Todo o projeto foi projetado para operar diretamente no navegador, sem etapas adicionais complexas para o usuário final.
+
+---
+
+## 🚀 Como Configurar e Executar
+
+1. Acesse o [OutSystems](https://www.outsystems.com/) e faça login na sua conta.
+2. Importe o arquivo `.oml` do projeto.
+3. Publique o módulo para habilitar a aplicação.
+4. Verifique a funcionalidade:
+   - Teste as operações de **criar**, **editar** e **excluir eventos**.
+
+---
+
+## 📂 Estrutura do Projeto
+
+- **Backend e Frontend (OutSystems)**:
+  - Lógica de negócios e APIs para gerenciar eventos.
+  - Interface simples e intuitiva para usuários.
+
+---
+
+## 🛠️ Requisitos do Ambiente
+
+- Conta ativa no OutSystems.
+- Navegador atualizado para acessar a aplicação.
+
+---
